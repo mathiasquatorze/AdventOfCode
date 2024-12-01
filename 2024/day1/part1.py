@@ -14,8 +14,5 @@ def lists(filename):
     print(distance)
     return distance
 
-example_distance = lists("example.txt")
-print(example_distance)
-
 distance = lists("input.txt")
 print("Distance: " + str(distance))

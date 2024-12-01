@@ -17,8 +17,5 @@ def similarity_score(filename):
 
     return sum(scores)
 
-example_similarity_score = similarity_score("example.txt")
-print(example_similarity_score)
-
-similarity_score = similarity_score("input.txt")
-print(similarity_score)
+score = similarity_score("input.txt")
+print(score)
